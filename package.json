@@ -1,0 +1,24 @@
+{
+  "name": "bhsk-vbi-shbf",
+  "version": "1.0.0",
+  "description": "SHB Finance / VBI insurance premium calculator – test suite",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/tests/**/*.test.js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "/tests/fixtures/"
+    ]
+  }
+}
