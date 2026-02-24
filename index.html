@@ -1804,7 +1804,7 @@
                 age--;
             }
 
-            return age;
+            return age < 1 ? 1 : age;
         }
 
         function parseVND(vndString) {
